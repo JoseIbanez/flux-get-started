@@ -55,7 +55,7 @@ spec:
         - --level=info
         - --random-delay=false
         - --random-error=false
-        - --ui-message='Welcome to Flux v1'
+        - --ui-message='Welcome to Flux v2'
         env:
         - name: PODINFO_UI_COLOR
           value: "#34577c"
