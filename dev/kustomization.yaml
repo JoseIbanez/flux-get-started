@@ -8,6 +8,8 @@ namespace: dev-demo
 resources:
   - ./ns.yaml
   - ./secrets.yaml
+  - ./sealed-vro.yaml
+  - ./sealed-vro-credentials.yaml
 
 bases:
   - ../workloads
