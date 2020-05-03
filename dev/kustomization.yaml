@@ -1,0 +1,16 @@
+namespace: dev-demo
+
+# Name prefix
+# namePrefix: gwdev-
+
+# Add ingress
+
+resources:
+  - ./ns.yaml
+
+bases:
+  - ../workloads
+
+
+#patchesStrategicMerge:
+#  - ./ns.yaml
